@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mogasa</title>
+</head>
+    <style>
+
+    @media (min-width:600px ) { 
+    
+            
+        *{
+            padding: 0px;
+            margin: 0px;
+            font-family: sans-serif;
+            color: rgb(255, 255, 255);
+            background-color: black;
+        }
+
+
+        header{  
+            display: flex;
+            justify-content: space-between;
+            border-bottom: 5px rgb(255, 0, 0) solid;
+            border-bottom-left-radius: 40px;
+            font-size: 20px;
+        }
+
+        h1{ 
+            padding: 20px;
+            margin-left: 100px;
+        }
+
+        ul{
+           display: flex;
+           justify-content: center; 
+          
+        }
+        
+        nav{
+            text-decoration: none;
+        }
+
+        li{
+            display: inline;
+            padding: 30px;
+            text-decoration: none;
+            
+        }
+
+
+        #one{
+            display: flex;
+            height: 80vh;
+            align-items: center;
+            margin-right: 30%;
+
+        }
+        .p1{
+           font-size: 60px; 
+           margin-left: 120px;
+        }
+
+        .p2{
+            font-size: 40px; 
+            margin-left: 120px;
+            margin-top: 20px;
+            border-bottom: red 2px solid;
+        }
+
+        span{
+            color: red;
+        }
+
+        #two{
+            display: flex;
+            height: 80vh;
+            align-items: center;
+            margin-right: 10px;
+            
+        }
+
+        .main{
+            display: flex;
+            flex-direction: row;
+        }
+  
+        img{
+            border-radius: 50%
+        }
+    }
+
+    @media (max-width : 600px) {
+        *{
+            padding: 0px;
+            margin: 0px;
+            font-family: sans-serif;
+            color: rgb(255, 255, 255);
+            background-color: black;
+            
+        }
+
+
+        header{  
+            border-bottom: red 6px solid;
+            border-radius: 50px;
+            
+        
+        }
+
+
+        h1{ 
+            text-align: center;
+            margin-top: 25px;
+            font-size: 30px;
+            
+
+        }
+
+        li{
+            display: inline;
+            padding: 5px;
+            font-size: 18px;
+             
+        }
+
+        ul{
+            text-align: center;
+            padding: 20px;
+            
+        }
+
+        .p1{
+            text-align: center;
+            margin-top: 60px;
+            font-size: 30px;
+        }
+
+        .p2{
+            text-align: center;
+            margin-top: 40px;
+            font-size: 30px;
+            
+        }
+
+        #two{
+            display: flex;
+            justify-content: center;
+        }
+
+        img{
+            width: 250px;
+            height:250px;
+            margin-top: 50px;
+            border-radius: 50%;    
+        }
+    }
+        
+    </style>
+<body>
+    <header>
+        <h1>Mogasa&#9889</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="service.html">Service</a></li>
+                <li><a href="blog.html">Blog</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <div class="main">
+    <aside id="one">
+        <div class="div">
+            <p class="p1">Hello,I'm <br><span><b>Mogasa</b></span></p>
+            <p class="p2">Web Dev/Trader</p>
+            
+        </div>
+       
+        
+    </aside>
+    <aside id="two">
+        <img src="mogasa.jpg" height="400px" width="400px">
+    </aside>
+   </div>
+
+    </body>
+</html>
